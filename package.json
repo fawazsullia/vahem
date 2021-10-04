@@ -1,0 +1,11 @@
+{
+  "name": "vahem",
+  "version": "1.0.0",
+  "description": "A js library to help you write minimum code by importing predefined code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fawaz Sullia",
+  "license": "ISC"
+}
