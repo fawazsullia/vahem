@@ -1,5 +1,7 @@
 var date ={
 
+//* get todays date in dd/mm/yyyy format. Takes in a seperator as an argument
+
 formatDate : function(seperator){
     let today = new Date();
     let dd = today.getDate().toString().padStart(2, '0')
@@ -9,6 +11,8 @@ formatDate : function(seperator){
     date = dd + seperator + mm + seperator + yyyy;
     return date
 },
+
+//* returns the number of days between 2 dates. Takes in start and end date in dd MON yyyy format
 
 numDays : function( startDate, endDate  ){
 
