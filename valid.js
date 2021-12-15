@@ -3,7 +3,7 @@
 var valid = {
 
 
-//returns the length of the string
+//* returns the length of the string
 
 length : function(string){
 
@@ -15,6 +15,8 @@ else {  return false  }
 
 },
 
+//* check if the string consists of number
+
 allNumbers : function(string){
 
 let regex = /^[0-9]*$/g
@@ -24,7 +26,7 @@ return result
 },
 
 
-//check if string contains atleast one caps letter
+//* check if string contains atleast one caps letter
 
 ifCaps : function(string){
 
@@ -35,7 +37,7 @@ return result
 },
 
 
-//check if string contains atleast one special character (!@#$%^&*)
+//* check if string contains atleast one special character (!@#$%^&*)
 
 ifSpecialChar : function(string){
 
@@ -45,16 +47,16 @@ return result
 
 },
 
-//check if the string is empty or not
+//* check if the string is empty or not
 notEmpty : function(string){
 
  if(string.length === 0){
      return false
- }   else {    return true}
+ }   else {    return true } 
 
 },
 
-//check if the string is a valid email of the form example@example.com
+//* check if the string is a valid email of the form example@example.com
 
 isEmail : function(string){
 
@@ -64,7 +66,7 @@ return result
 
 },
 
-//check if the string is a url of the form https://example.extension
+//* check if the string is a url of the form https://example.extension
 
 isUrl : function(string){
 
