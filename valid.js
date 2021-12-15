@@ -15,7 +15,7 @@ else {  return false  }
 
 },
 
-//* check if the string consists of number
+//* check if the string is made of numbers
 
 allNumbers : function(string){
 
