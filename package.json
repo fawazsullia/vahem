@@ -4,11 +4,15 @@
   "description": "A js library to help you write minimum code by importing predefined code",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Fawaz Sullia",
   "license": "ISC",
   "dependencies": {
-    "jest": "^27.4.5"
+    "jest": "^27.4.5",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0"
   }
 }
