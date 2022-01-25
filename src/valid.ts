@@ -19,6 +19,9 @@ else {  return false  }
 
 allNumbers : function(str : string){
 
+    if(str === ""){
+        return false
+    }
 let regex = /^[0-9]*$/g
 let result = regex.test(str)
 return result
