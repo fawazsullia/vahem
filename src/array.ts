@@ -4,7 +4,7 @@ const arrayOperations : any = {
   //multiply first element of arr1 with first element of arr2, second with second and so on
 
   multiply: function (arr1 : number[], arr2: number[]) {
-    if (arr1.length !== arr2.length) {
+    if (arr1.length !== arr2.length || arr1.length == 0 || arr1.length == 0) {
       return false;
     } else {
       let newArr : number[] = [];
